@@ -1,0 +1,73 @@
+/*
+	This file is part of GibCounter QuakeForge player rating
+	Copyright (C) 2003  Stanislaw Y. Pusep
+*/
+
+body {
+	color: #d3d3d3;
+	background-color: #000000;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1 { color: #ffffff; background: #000000; text-align: center; font-size: 150%; font-weight: normal }
+
+a:link, a:visited { color: #ffffff; background-color: #000000; text-decoration: none }
+a:active, a:hover { color: #ffffff; background-color: #000000; text-decoration: underline }
+
+span {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+span.qw0 { color: #ffffff; background-color: #202020 }
+span.qw1 { color: #ffa400; background-color: #202020 }
+span.qw2 { color: #ffd700; background-color: #202020 }
+span.qw3 { color: #a52a2a; background-color: #202020 }
+
+div.pbar {
+	border: 1px solid #0000ff;
+	background-color: #00008b;
+	color: #ffffff;
+	height: 18px;
+}
+
+div.nbar {
+	border: 1px solid #ff0000;
+	background-color: #8b0000;
+	color: #ffffff;
+	height: 18px;
+}
+
+table.footer { width: 100% }
+
+th {
+	color: white;
+	background-color: #a0a0a0;
+	font-size: 10px;
+	text-decoration: underline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td {
+	color: #d3d3d3;
+	background-color: #202020;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td.prc { text-align: right; vertical-align: middle; font-size: 10px }
+
+td.num		{ text-align: right; vertical-align: middle; font-size: 9px; color: #00ff00; background-color: #202020 }
+td.nick		{ text-align: right; vertical-align: middle }
+td.rating	{ text-align: left; vertical-align: middle }
+td.frags	{ text-align: right }
+td.kills	{ text-align: right }
+td.deaths	{ text-align: right }
+td.suicides	{ text-align: right }
+
+td.summary	{ text-align: left }
+td.value	{ text-align: right }
+
+td.gen { color: #d3d3d3; background-color: #000000; font-size: 12px }
+td.val { color: #d3d3d3; background-color: #000000; font-size: 9px; text-align: right }
